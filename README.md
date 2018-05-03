@@ -15,13 +15,13 @@ Using data augmentation and MatConvNet, create a robust CNN that achieves **99.2
 
 Below is a table summary of the results for the provided architectures.
 
-![alt text](https://raw.githubusercontent.com/ghunkins/MNIST-Matlab/master/Results/Summary.png)
+<img src="https://raw.githubusercontent.com/ghunkins/MNIST-Matlab/master/Results/Summary.png" alt="alt text" width="200" height="200">
 
 ### Baseline
 
 The baseline architecture achieved a **98.47%** classification accuracy on the clean validation data. Below is a visualization of the training cycle of 20 epochs.
 
-![alt text](https://raw.githubusercontent.com/ghunkins/MNIST-Matlab/master/Results/Baseline.png)
+<img src="https://raw.githubusercontent.com/ghunkins/MNIST-Matlab/master/Results/Baseline.png" alt="alt text" width="300" height="300">
 
 This architecture is contained in `cnn_init_baseline.m`.
 
@@ -29,7 +29,7 @@ This architecture is contained in `cnn_init_baseline.m`.
 
 The baseline architecture achieved a **98.54%** classification accuracy on the clean validation data. When trained with augmented (X-Y shifting, rotation) data, this increased to **99.21%** accuracy on the _dirty_ validation set. Below is a visualization of the latter training cycle of 16 epochs.
 
-![alt text](https://raw.githubusercontent.com/ghunkins/MNIST-Matlab/master/Results/Robust-Filters-Dropout.png)
+<img src="https://raw.githubusercontent.com/ghunkins/MNIST-Matlab/master/Results/Robust-Filters-Dropout.png" alt="alt text" width="300" height="300">
 
 This architecture is contained in `cnn_init_filters_dropout.m`.
 
