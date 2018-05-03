@@ -3,8 +3,9 @@ function net = cnn_init(varargin)
 %
 % Gregory D. Hunkins
 %
-% Function to define and initialize a classification network  
+% Test the effect of leaky ReLUs on the baseline architecture.
 %
+% Function to define and initialize a classification network  
 
 rng('default'); 
 rng(0) ;
